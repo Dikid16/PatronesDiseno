@@ -1,16 +1,16 @@
 public class DiorFactory implements Fabrica{
     @Override
-    public void crearPantalon() {
-        new DiorPantalon();
+    public Pantalon crearPantalon() {
+        return new DiorPantalon();
     }
 
     @Override
-    public void crearCamisa() {
-        new DiorCamisa();
+    public Camisa crearCamisa() {
+        return new DiorCamisa();
     }
 
     @Override
-    public void crearZapatos() {
-        new DiorZapatos();
+    public Zapatos crearZapatos() {
+        return new DiorZapatos();
     }
 }

@@ -1,8 +1,8 @@
 public interface Fabrica {
 
-    void crearPantalon();
+    Pantalon crearPantalon();
 
-    void crearCamisa();
+    Camisa crearCamisa();
 
-    void crearZapatos();
+    Zapatos crearZapatos();
 }

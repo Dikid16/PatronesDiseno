@@ -1,16 +1,16 @@
 public class HermesFactory implements Fabrica{
     @Override
-    public void crearPantalon() {
-        new HermesPantalon();
+    public Pantalon crearPantalon() {
+        return new HermesPantalon();
     }
 
     @Override
-    public void crearCamisa() {
-        new HermesCamisa();
+    public Camisa crearCamisa() {
+        return new HermesCamisa();
     }
 
     @Override
-    public void crearZapatos() {
-        new HermesZapatos();
+    public Zapatos crearZapatos() {
+        return new HermesZapatos();
     }
 }
