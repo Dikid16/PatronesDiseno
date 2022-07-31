@@ -1,16 +1,26 @@
-public class DiorFactory implements Fabrica{
+import Camisa.CamisaDior;
+import Camisa.ICamisa;
+import Pantalon.IPantalon;
+import Pantalon.PantalonDior;
+import Zapatos.IZapatos;
+import Zapatos.ZapatosDior;
+
+public class DiorFactory extends AbstractFactory{
     @Override
-    public Pantalon crearPantalon() {
-        return new DiorPantalon();
+    public IPantalon crearPantalon() {
+        IPantalon pantalon = new PantalonDior();
+        return pantalon;
     }
 
     @Override
-    public Camisa crearCamisa() {
-        return new DiorCamisa();
+    public ICamisa crearCamisa() {
+        ICamisa camisa = new CamisaDior();
+        return camisa;
     }
 
     @Override
-    public Zapatos crearZapatos() {
-        return new DiorZapatos();
+    public IZapatos crearZapatos() {
+        IZapatos zapatos = new ZapatosDior();
+        return zapatos;
     }
 }

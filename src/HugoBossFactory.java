@@ -1,16 +1,26 @@
-public class HugoBossFactory implements Fabrica{
+import Camisa.CamisaHugoBoss;
+import Camisa.ICamisa;
+import Pantalon.IPantalon;
+import Pantalon.PantalonHugoBoss;
+import Zapatos.IZapatos;
+import Zapatos.ZapatosHugoBoss;
+
+public class HugoBossFactory extends AbstractFactory{
     @Override
-    public Pantalon crearPantalon() {
-        return new HugoBossPantalon();
+    public IPantalon crearPantalon() {
+        IPantalon pantalon = new PantalonHugoBoss();
+        return pantalon;
     }
 
     @Override
-    public Camisa crearCamisa() {
-        return new HugoBossCamisa();
+    public ICamisa crearCamisa() {
+        ICamisa camisa = new CamisaHugoBoss();
+        return camisa;
     }
 
     @Override
-    public Zapatos crearZapatos() {
-        return new HugoBossZapatos();
+    public IZapatos crearZapatos() {
+        IZapatos zapatos = new ZapatosHugoBoss();
+        return zapatos;
     }
 }

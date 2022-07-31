@@ -2,12 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c76b085-3fef-4298-bf82-1a30a009ab8f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Camisa/CamisaDior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Camisa/CamisaHermes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Camisa/CamisaHugoBoss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Camisa/ICamisa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pantalon/IPantalon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pantalon/PantalonDior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pantalon/PantalonHermes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pantalon/PantalonHugoBoss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Zapatos/IZapatos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Zapatos/ZapatosDior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Zapatos/ZapatosHermes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Zapatos/ZapatosHugoBoss.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Camisa.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DiorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiorFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fabrica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fabrica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fabrica.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HermesFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HermesFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HugoBossFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HugoBossFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pantalon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Zapatos.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,12 +52,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Cliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Cliente" />

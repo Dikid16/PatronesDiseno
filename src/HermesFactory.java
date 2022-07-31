@@ -1,16 +1,26 @@
-public class HermesFactory implements Fabrica{
+import Camisa.CamisaHermes;
+import Camisa.ICamisa;
+import Pantalon.IPantalon;
+import Pantalon.PantalonHermes;
+import Zapatos.IZapatos;
+import Zapatos.ZapatosHermes;
+
+public class HermesFactory extends AbstractFactory{
     @Override
-    public Pantalon crearPantalon() {
-        return new HermesPantalon();
+    public IPantalon crearPantalon() {
+        IPantalon pantalon = new PantalonHermes();
+        return pantalon;
     }
 
     @Override
-    public Camisa crearCamisa() {
-        return new HermesCamisa();
+    public ICamisa crearCamisa() {
+        ICamisa camisa = new CamisaHermes();
+        return camisa;
     }
 
     @Override
-    public Zapatos crearZapatos() {
-        return new HermesZapatos();
+    public IZapatos crearZapatos() {
+        IZapatos zapatos = new ZapatosHermes();
+        return zapatos;
     }
 }
