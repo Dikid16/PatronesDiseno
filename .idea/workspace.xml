@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c76b085-3fef-4298-bf82-1a30a009ab8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/State/Aburrido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/State/Cansado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/State/Durmiendo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/State/GatoTom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/State/Hambriento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/State/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/State/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/State/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/State/Sucio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractFactory/AbstractFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Camisa/CamisaDior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractFactory/Camisa/CamisaDior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Camisa/CamisaHermes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractFactory/Camisa/CamisaHermes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Camisa/CamisaHugoBoss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractFactory/Camisa/CamisaHugoBoss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Camisa/ICamisa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractFactory/Camisa/ICamisa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractFactory/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractFactory/DiorFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HermesFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractFactory/HermesFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HugoBossFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractFactory/HugoBossFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pantalon/IPantalon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractFactory/Pantalon/IPantalon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pantalon/PantalonDior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractFactory/Pantalon/PantalonDior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pantalon/PantalonHermes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractFactory/Pantalon/PantalonHermes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pantalon/PantalonHugoBoss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractFactory/Pantalon/PantalonHugoBoss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Zapatos/IZapatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractFactory/Zapatos/IZapatos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Zapatos/ZapatosDior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractFactory/Zapatos/ZapatosDior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Zapatos/ZapatosHermes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractFactory/Zapatos/ZapatosHermes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Zapatos/ZapatosHugoBoss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractFactory/Zapatos/ZapatosHugoBoss.java" afterDir="false" />
-    </list>
+    <list default="true" id="1c76b085-3fef-4298-bf82-1a30a009ab8f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
