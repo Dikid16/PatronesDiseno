@@ -1,18 +1,18 @@
-package Zapatos;
+package AbstractFactory.Zapatos;
 
-public class ZapatosDior implements IZapatos{
+public class ZapatosHermes implements IZapatos{
     @Override
     public String getMarca() {
-        return "Dior";
+        return "Hermes";
     }
 
     @Override
     public String material() {
-        return "Tela";
+        return "Cuero";
     }
 
     @Override
     public String getColor() {
-        return "Blanco";
+        return "Café";
     }
 }

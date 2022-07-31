@@ -1,6 +1,8 @@
-import Camisa.ICamisa;
-import Pantalon.IPantalon;
-import Zapatos.IZapatos;
+package AbstractFactory;
+
+import AbstractFactory.Camisa.ICamisa;
+import AbstractFactory.Pantalon.IPantalon;
+import AbstractFactory.Zapatos.IZapatos;
 
 public abstract class AbstractFactory {
     public abstract IPantalon crearPantalon();

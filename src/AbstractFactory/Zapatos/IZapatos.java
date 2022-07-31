@@ -1,4 +1,4 @@
-package Zapatos;
+package AbstractFactory.Zapatos;
 
 public interface IZapatos {
     String getMarca();

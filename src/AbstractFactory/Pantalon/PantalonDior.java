@@ -1,9 +1,9 @@
-package Pantalon;
+package AbstractFactory.Pantalon;
 
-public class PantalonHugoBoss implements IPantalon {
+public class PantalonDior implements IPantalon{
     @Override
     public String getMarca() {
-        return "Hugo Boss";
+        return "Dior";
     }
 
     @Override
@@ -13,7 +13,7 @@ public class PantalonHugoBoss implements IPantalon {
 
     @Override
     public String getColor() {
-        return "Negro";
+        return "Azul";
     }
 
     @Override

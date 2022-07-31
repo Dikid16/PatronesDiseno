@@ -1,9 +1,11 @@
-import Camisa.CamisaDior;
-import Camisa.ICamisa;
-import Pantalon.IPantalon;
-import Pantalon.PantalonDior;
-import Zapatos.IZapatos;
-import Zapatos.ZapatosDior;
+package AbstractFactory;
+
+import AbstractFactory.Camisa.CamisaDior;
+import AbstractFactory.Camisa.ICamisa;
+import AbstractFactory.Pantalon.IPantalon;
+import AbstractFactory.Pantalon.PantalonDior;
+import AbstractFactory.Zapatos.IZapatos;
+import AbstractFactory.Zapatos.ZapatosDior;
 
 public class DiorFactory extends AbstractFactory{
     @Override

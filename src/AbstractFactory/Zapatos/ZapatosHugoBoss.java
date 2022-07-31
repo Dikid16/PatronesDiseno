@@ -1,9 +1,9 @@
-package Zapatos;
+package AbstractFactory.Zapatos;
 
-public class ZapatosHermes implements IZapatos{
+public class ZapatosHugoBoss implements IZapatos{
     @Override
     public String getMarca() {
-        return "Hermes";
+        return "Hugo Boss";
     }
 
     @Override
@@ -13,6 +13,6 @@ public class ZapatosHermes implements IZapatos{
 
     @Override
     public String getColor() {
-        return "Café";
+        return "Negro";
     }
 }

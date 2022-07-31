@@ -1,4 +1,4 @@
-package Camisa;
+package AbstractFactory.Camisa;
 
 public class CamisaHugoBoss implements ICamisa{
     @Override

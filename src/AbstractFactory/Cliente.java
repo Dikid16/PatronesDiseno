@@ -1,4 +1,6 @@
-import Pantalon.IPantalon;
+package AbstractFactory;
+
+import AbstractFactory.Pantalon.IPantalon;
 
 public class Cliente {
 

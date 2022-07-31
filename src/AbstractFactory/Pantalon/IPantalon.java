@@ -1,4 +1,4 @@
-package Pantalon;
+package AbstractFactory.Pantalon;
 
 public interface IPantalon {
     String getMarca();

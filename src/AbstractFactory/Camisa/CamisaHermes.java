@@ -1,18 +1,18 @@
-package Camisa;
+package AbstractFactory.Camisa;
 
-public class CamisaDior implements ICamisa{
+public class CamisaHermes implements ICamisa{
     @Override
     public String getMarca() {
-        return "Dior";
+        return "Hermes";
     }
 
     @Override
     public String talla() {
-        return "M";
+        return "L";
     }
 
     @Override
     public String getColor() {
-        return "Negro";
+        return "Azul";
     }
 }

@@ -1,9 +1,11 @@
-import Camisa.CamisaHugoBoss;
-import Camisa.ICamisa;
-import Pantalon.IPantalon;
-import Pantalon.PantalonHugoBoss;
-import Zapatos.IZapatos;
-import Zapatos.ZapatosHugoBoss;
+package AbstractFactory;
+
+import AbstractFactory.Camisa.CamisaHugoBoss;
+import AbstractFactory.Camisa.ICamisa;
+import AbstractFactory.Pantalon.IPantalon;
+import AbstractFactory.Pantalon.PantalonHugoBoss;
+import AbstractFactory.Zapatos.IZapatos;
+import AbstractFactory.Zapatos.ZapatosHugoBoss;
 
 public class HugoBossFactory extends AbstractFactory{
     @Override
