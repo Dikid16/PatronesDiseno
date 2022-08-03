@@ -2,10 +2,10 @@ package State;
 
 public interface State {
 
-    void jugar();
-    void alimentar();
-    void lavar();
-    void dormir();
+    void prender();
+    void tanquear();
+    void conducir();
+    void apagar();
 
-    void setGatoTom(GatoTom gatoTom);
+    void setCarroFantastico(CarroFantastico carroFantastico);
 }

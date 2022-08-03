@@ -3,28 +3,29 @@ package State;
 import java.util.Scanner;
 
 public class Menu {
-    GatoTom gatoTom;
+    CarroFantastico carroFantastico;
 
-    public Menu(GatoTom gatoTom){
-        this.gatoTom = gatoTom;
+    public Menu(CarroFantastico carroFantastico){
+        this.carroFantastico = carroFantastico;
     }
 
     public void display(){
-        Scanner scanner = new Scanner(System.in);
-        char opcion;
-        String mensajeOpciones = "Acción: "+
-                "a) Alimentar, b) Dormir, c) Jugar, d) Lavar, e) Salir";
+        try (Scanner scanner = new Scanner(System.in)) {
+            char opcion;
+            String mensajeOpciones = "Acción: "+
+                    "a) Prender, b) Tanquear, c) Conducir, d) Apagar, e) Salir";
 
-        while (true){
-            System.out.println(mensajeOpciones);
-            opcion = scanner.next().charAt(0);
-            switch (opcion){
-                case 'a': gatoTom.alimemtar(); break;
-                case 'b': gatoTom.dormir(); break;
-                case 'c': gatoTom.jugar(); break;
-                case 'd': gatoTom.lavar(); break;
-                case 'e': System.out.println("Hasta pronto!"); System.exit(0);
-                default: System.out.println("Opción no valida");
+            while (true){
+                System.out.println(mensajeOpciones);
+                opcion = scanner.next().charAt(0);
+                switch (opcion){
+                    case 'a': carroFantastico.prender(); break;
+                    case 'b': carroFantastico.tanquear(); break;
+                    case 'c': carroFantastico.conducir(); break;
+                    case 'd': carroFantastico.apagar(); break;
+                    case 'e': System.out.println("Hasta nunca :)"); System.exit(0);
+                    default: System.out.println("Esta opción no es válida");
+                }
             }
         }
     }

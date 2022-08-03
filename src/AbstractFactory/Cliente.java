@@ -1,24 +1,36 @@
 package AbstractFactory;
 
-import AbstractFactory.Pantalon.IPantalon;
+import AbstractFactory.Automovil.InterAutomovil;
+import AbstractFactory.Camioneta.InterCamioneta;
 
 public class Cliente {
 
     public static void main(String[] args) {
-        System.out.println("Pantalones disponibles: ");
-        AbstractFactory hugoFactory = new HugoBossFactory();
+        System.out.println("Automoviles disponibles: ");
+        AbstractFactory chevroletFactory = new ChevroletFactory();
 
-        IPantalon pantalonHugoBoss = hugoFactory.crearPantalon();
-        System.out.println(pantalonHugoBoss.toString());
+        InterAutomovil automovilChevrolet = chevroletFactory.crearAutomovil();
+        System.out.println(automovilChevrolet.toString());
 
-        AbstractFactory hermesFactory = new HermesFactory();
+        AbstractFactory ferrariFactory = new FerrariFactory();
 
-        IPantalon pantalonHermes = hermesFactory.crearPantalon();
-        System.out.println(pantalonHermes.toString());
+        InterAutomovil automovilFerrari = ferrariFactory.crearAutomovil();
+        System.out.println(automovilFerrari.toString());
 
-        AbstractFactory diorFactory = new DiorFactory();
+        AbstractFactory toyotaFactory = new ToyotaFactory();
 
-        IPantalon pantalonDior = diorFactory.crearPantalon();
-        System.out.println(pantalonDior.toString());
+        InterAutomovil automovilToyota = toyotaFactory.crearAutomovil();
+        System.out.println(automovilToyota.toString());
+
+        System.out.println("Camionetas disponibles: ");
+
+        InterCamioneta camionetaChevrolet = chevroletFactory.crearCamioneta();
+        System.out.println(camionetaChevrolet.toString());
+
+        InterCamioneta camionetaFerrari = ferrariFactory.crearCamioneta();
+        System.out.println(camionetaFerrari.toString());
+
+        InterCamioneta camionetaToyota = toyotaFactory.crearCamioneta();
+        System.out.println(camionetaToyota.toString());
     }
 }

@@ -3,8 +3,8 @@ package State;
 public class Main {
 
     public static void main(String[] args) {
-        GatoTom miGatoTom = new GatoTom();
+        CarroFantastico miCarroFantastico = new CarroFantastico();
 
-        new Menu(miGatoTom).display();
+        new Menu(miCarroFantastico).display();
     }
 }

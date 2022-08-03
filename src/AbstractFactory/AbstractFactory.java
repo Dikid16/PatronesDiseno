@@ -1,11 +1,9 @@
 package AbstractFactory;
 
-import AbstractFactory.Camisa.ICamisa;
-import AbstractFactory.Pantalon.IPantalon;
-import AbstractFactory.Zapatos.IZapatos;
+import AbstractFactory.Camioneta.InterCamioneta;
+import AbstractFactory.Automovil.InterAutomovil;
 
 public abstract class AbstractFactory {
-    public abstract IPantalon crearPantalon();
-    public abstract ICamisa crearCamisa();
-    public abstract IZapatos crearZapatos();
+    public abstract InterAutomovil crearAutomovil();
+    public abstract InterCamioneta crearCamioneta();
 }
